@@ -231,8 +231,9 @@ footer a:hover {
 }
 
 @media only screen and (max-width:875px) {
- .container{
-height: 120vh
+ footer a{
+  background:orange;
+  color:white
  }
  nav {
         justify-content: space-between;
