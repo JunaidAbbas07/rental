@@ -202,6 +202,8 @@ footer a {
     border-radius: 5px;
     cursor: pointer;
     transition: background .4s;
+ background: orange;
+        color: white;
 }
 
 footer a:hover {
@@ -231,10 +233,7 @@ footer a:hover {
 }
 
 @media only screen and (max-width:875px) {
- footer a{
-  background:orange;
-  color:white
- }
+ 
  nav {
         justify-content: space-between;
         padding: 1% 3%;
@@ -309,7 +308,10 @@ footer a:hover {
     .gallery{
         display: none;
     }
-   
+   footer a{
+        background: orange;
+        color: white;
+ }
    
 
 }
