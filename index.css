@@ -220,16 +220,9 @@ footer a:hover {
     }
 
     footer{
-        display: flex;
-        flex-direction: column;
-       
-        
-    }
-    footer a{
-        margin: 10px;
-        justify-content: center;
-        text-align: center;
-    }
+     display:none;
+ }
+  
 }
 
 @media only screen and (max-width:875px) {
@@ -307,9 +300,7 @@ footer a:hover {
     .gallery{
         display: none;
     }
-   .container{
-        height: 140vh;
-    }
+  
 
 }
 
@@ -337,7 +328,5 @@ footer a:hover {
         font-size: 16px;
         padding: 10px 5px;
     }
-    .container{
-        height: 140vh;
-    }
+    
 }
