@@ -210,7 +210,9 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 576px) {
-    
+    .container{
+        height: 140vh;
+    }
    
     .container section {
         display: flex;
@@ -305,7 +307,9 @@ footer a:hover {
     .gallery{
         display: none;
     }
-   
+   .container{
+        height: 140vh;
+    }
 
 }
 
